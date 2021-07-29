@@ -1,5 +1,5 @@
 const express = require('express')
-const {registerUser, getUserProfile} = require('./logic')
+const {registerUser, getUserProfile} = require('../controllers/user')
 const router = express.Router();
 
 router.post('/register', registerUser);
